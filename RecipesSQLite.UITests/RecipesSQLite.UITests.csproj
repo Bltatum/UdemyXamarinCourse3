@@ -3,10 +3,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7E737AEA-54D4-4C39-BB38-8A1BF94DD1A0}</ProjectGuid>
+    <ProjectGuid>{158D29D1-4EA4-43EE-BC90-8D935A145000}</ProjectGuid>
     <OutputType>Library</OutputType>
-    <RootNamespace>UdemyXamarinCourse3.UITests</RootNamespace>
-    <AssemblyName>UdemyXamarinCourse3.UITests</AssemblyName>
+    <RootNamespace>RecipesSQLite.UITests</RootNamespace>
+    <AssemblyName>RecipesSQLite.UITests</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -29,25 +29,25 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="NUnit" Version="3.12.0" />
-    <PackageReference Include="Xamarin.UITest" Version="3.0.7" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\UdemyXamarinCourse3.iOS\UdemyXamarinCourse3.iOS.csproj">
-      <Project>{A8B8FF33-0105-40FA-BA20-C27F82B1D923}</Project>
-      <Name>UdemyXamarinCourse3.iOS</Name>
-      <ReferenceOutputAssembly>False</ReferenceOutputAssembly>
-      <Private>False</Private>
-    </ProjectReference>
-    <ProjectReference Include="..\UdemyXamarinCourse3.Android\UdemyXamarinCourse3.Android.csproj">
-      <Project>{47E2D33B-6BFF-4039-8C0F-EF5174838105}</Project>
-      <Name>UdemyXamarinCourse3.Android</Name>
-      <ReferenceOutputAssembly>False</ReferenceOutputAssembly>
-      <Private>False</Private>
-    </ProjectReference>
+    <PackageReference Include="Xamarin.UITest" Version="3.0.5" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Tests.cs" />
     <Compile Include="AppInitializer.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\RecipesSQLite.iOS\RecipesSQLite.iOS.csproj">
+      <Project>{B2A2D8D5-7F71-4B8C-BD6E-E0DBC0606A69}</Project>
+      <Name>RecipesSQLite.iOS</Name>
+      <ReferenceOutputAssembly>False</ReferenceOutputAssembly>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\RecipesSQLite.Android\RecipesSQLite.Android.csproj">
+      <Project>{45DFB240-6D0F-444E-9EA1-58ED8AC26B6D}</Project>
+      <Name>RecipesSQLite.Android</Name>
+      <ReferenceOutputAssembly>False</ReferenceOutputAssembly>
+      <Private>False</Private>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
