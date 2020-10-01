@@ -3,10 +3,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{158D29D1-4EA4-43EE-BC90-8D935A145000}</ProjectGuid>
+    <ProjectGuid>{5B7222C3-67A7-400A-8302-4F9999A9629D}</ProjectGuid>
     <OutputType>Library</OutputType>
-    <RootNamespace>RecipesSQLite.UITests</RootNamespace>
-    <AssemblyName>RecipesSQLite.UITests</AssemblyName>
+    <RootNamespace>NetflixRouletteApp.UITests</RootNamespace>
+    <AssemblyName>NetflixRouletteApp.UITests</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -36,15 +36,15 @@
     <Compile Include="AppInitializer.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\RecipesSQLite.iOS\RecipesSQLite.iOS.csproj">
-      <Project>{B2A2D8D5-7F71-4B8C-BD6E-E0DBC0606A69}</Project>
-      <Name>RecipesSQLite.iOS</Name>
+    <ProjectReference Include="..\NetflixRouletteApp.iOS\NetflixRouletteApp.iOS.csproj">
+      <Project>{F5787986-5DBA-4811-9107-3EAA1F458C9D}</Project>
+      <Name>NetflixRouletteApp.iOS</Name>
       <ReferenceOutputAssembly>False</ReferenceOutputAssembly>
       <Private>False</Private>
     </ProjectReference>
-    <ProjectReference Include="..\RecipesSQLite.Android\RecipesSQLite.Android.csproj">
-      <Project>{45DFB240-6D0F-444E-9EA1-58ED8AC26B6D}</Project>
-      <Name>RecipesSQLite.Android</Name>
+    <ProjectReference Include="..\NetflixRouletteApp.Android\NetflixRouletteApp.Android.csproj">
+      <Project>{2E91F468-EEBC-4CC6-9762-5405C465149B}</Project>
+      <Name>NetflixRouletteApp.Android</Name>
       <ReferenceOutputAssembly>False</ReferenceOutputAssembly>
       <Private>False</Private>
     </ProjectReference>
