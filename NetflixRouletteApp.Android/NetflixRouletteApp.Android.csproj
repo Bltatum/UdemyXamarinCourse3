@@ -96,7 +96,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\NetflixRouletteApp\NetflixRouletteApp.csproj">
-      <Project>{DF27B3DA-943B-4798-AC7A-DA244912D430}</Project>
+      <Project>{09EB644F-5743-495E-B816-E0E0F0AD9FC6}</Project>
       <Name>NetflixRouletteApp</Name>
     </ProjectReference>
   </ItemGroup>
